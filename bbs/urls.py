@@ -34,6 +34,6 @@ urlpatterns = [
     url(r'^user/login/', user_views.login),
     url(r'^user/logout/', user_views.logout),
     url(r'^user/info/', user_views.user_info),
-]
+]   
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
